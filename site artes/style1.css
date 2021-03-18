@@ -1,0 +1,58 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.div1{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    border-color: green;
+    border-style: solid;
+    border-width: thin;
+    box-shadow: 2px 2px green;
+
+}
+
+button{
+    padding: 10px;
+}
+
+
+p {
+    color: black;
+}
+
+button{
+    width:100px;
+    justify-content: center;
+    background-color: purple;
+    border-color: #e5eecc;
+    color: #e5eecc;
+}
+
+button:hover {
+    background-color: white;
+    border-color: purple;
+    color: purple;
+}
+
+#navbar{
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    justify-content: flex-end;
+    border-width: thin;
+    border-style: solid;
+    border-color: green;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
